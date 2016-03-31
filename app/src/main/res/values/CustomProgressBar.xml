@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="textsize" format="dimension"/>
+    <attr name="textcolor" format="color"/><!-- 文字颜色 -->
+    <attr name="endTime" format="string"></attr><!-- 文字颜色 -->
+    <!--<attr name="speed" format="enum"/>-->
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed">
+            <enum name="hour" value="0"/>
+            <enum name="minute" value="1"/>
+            <enum name="second" value="2"/>
+        </attr>
+        <attr name="textsize"></attr>
+        <attr name="textcolor"></attr>
+        <attr name="endTime"></attr>
+    </declare-styleable>
+</resources>
